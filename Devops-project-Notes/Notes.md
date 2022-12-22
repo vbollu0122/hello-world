@@ -10,4 +10,4 @@
     To deploy artifact on the target environment we need the tomcat server 
     Create EC2 instance and install java/tomcat
     In jenkins UI install go to manage plugins deploy to container and manage credentials go to jenkins - global cred - add credentials
-    
+    artifacts should be copied to the tomcat server, artifacts are stored in webapp directory
