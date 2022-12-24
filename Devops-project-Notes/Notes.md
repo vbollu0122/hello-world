@@ -11,3 +11,12 @@
     Create EC2 instance and install java/tomcat
     In jenkins UI install go to manage plugins deploy to container and manage credentials go to jenkins - global cred - add credentials
     artifacts should be copied to the tomcat server, artifacts are stored in webapp directory
+
+
+*****
+docker ps - running containers
+docker ps -a - shows all the containers
+docker images - lists all the images
+docker run -d --name tomcat-container(containername) -p 8081:8080 tomcat(image name)
+--8081 is to access externally
+docker exec -it tomcat-container /bin/bash - to get inside the container 
