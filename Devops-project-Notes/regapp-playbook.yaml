@@ -7,7 +7,7 @@
      chdir: /opt/docker
 
   - name: create tag to push image onto dockerhub
-    command: docker tag regapp:latest vbollu/regapp:latest
+    command: docker tag regapp:latest vbollu3141/regapp:latest
 
   - name: push docker image
-    command: docker push regapp:latest vbollu/regapp:latest
+    command: docker push regapp:latest vbollu3141/regapp:latest
