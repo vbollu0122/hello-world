@@ -30,3 +30,9 @@ docker exec -it tomcat-container /bin/bash - to get inside the container
 docker stop containername - stops the container
 docker prune image -a - deletes all images
 docker container prune -a - deletes all containers
+docker tag 1ff936771235 vbollu3141/regapp:latest
+            (image-id)    (user)      (image-tagversion)
+
+docker push vbollu3141/regapp:latest
+
+
