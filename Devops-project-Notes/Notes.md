@@ -31,8 +31,11 @@ docker stop containername - stops the container
 docker prune image -a - deletes all images
 docker container prune -a - deletes all containers
 docker tag 1ff936771235 vbollu3141/regapp:latest
-            (image-id)    (user)      (image-tagversion)
+            (image-id or reponame)    (user)      (image-tagversion)
 
 docker push vbollu3141/regapp:latest
+
+********
+ansible-playbook regapp.yml --limit localhost(ipaddress)
 
 
